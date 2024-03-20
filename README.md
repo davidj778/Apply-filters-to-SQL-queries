@@ -11,7 +11,7 @@ Your task is to examine the organization’s data in their employees and log_in_
 
 ## Project description
 
-[Describe what you accomplish through SQL.]
+There has been recent login attempts and other issues with employee machines that have become a potential security issue. The goal is to examine the logins and machines using the sql query to determine if there is a problem that needs to be addressed.
 
 
 ## Retrieve after hours failed login attempts
