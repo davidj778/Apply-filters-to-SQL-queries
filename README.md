@@ -3,7 +3,7 @@
 # Apply filters to SQL queries
 
 
-Project description
+## Project description
 
 [Describe what you accomplish through SQL.]
 
@@ -69,7 +69,7 @@ WHERE NOT department = ‘Information Technology’;
 
 Finally, we used the SELECT command followed by the asterisk to provide all columns. Then we choose the employees table using the FROM command. In this query, we did not want any of our results to show the IT department. We used the WHERE command combined with the NOT operator to not display the Information Technology department.
 
-Summary
+## Summary
 
 
 
