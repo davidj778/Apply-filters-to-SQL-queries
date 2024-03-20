@@ -77,7 +77,7 @@ Finally, we used the SELECT keyword followed by the asterisk to provide all colu
 
 ## Summary
 
-
+For this project, I used the sql query to access 2 databases(log_in_attempts, employees). I also used different keywords such as AND, OR, and NOT. These keywords helped filter specific data that needed to be analyzed. The LIKE operator with the % wildcard can in handy when I needed to view certain patterns.
 
 
 
