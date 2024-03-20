@@ -17,7 +17,7 @@ FROM log_in_attempts
 WHERE login_time > ‘18:00’ AND success = FALSE;
 ```
 
-In order to view all columns, we used the “SELECT”  command, followed by the asterisk sign, which means select all columns. Next, we used the WHERE command to define certain rules that we want to apply to our table were login times would be greater than 18:00(login_time > ‘18:00’) and the amount of false login attempts(success = FALSE). The AND logical operator combines both parameters to the statement.
+In order to view all columns, we used the SELECT command, followed by the asterisk sign, which means select all columns. Next, we used the WHERE command to define certain rules that we want to apply to our table were login times would be greater than 18:00(login_time > ‘18:00’) and the amount of false login attempts(success = FALSE). The AND logical operator combines both parameters to the statement.
 
 ## Retrieve login attempts on specific dates
 
@@ -57,7 +57,7 @@ FROM employees
 WHERE department = ‘Sales’ OR department = ‘Finance’;
 ```
 
-In order to retrieve finance and sales employees, the WHERE command is used to filter “Sales” and “Finance” for the column “department.
+In order to retrieve finance and sales employees, the WHERE command is used to filter “Sales” and “Finance” for the column “department".
 
 ## Retrieve all employees not in IT
 
