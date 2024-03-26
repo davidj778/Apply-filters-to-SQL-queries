@@ -53,7 +53,7 @@ FROM employees
 WHERE department = ‘Marketing’ AND office LIKE ‘East%’;
 ```
 
-For this query we used the WHERE keyword to generate 2 columns. The department columns to display anything that has the word “Marketing” and the columns office to display “East”, followed by anything else. As before the LIKE keyword used with the % wildcard allows for this search type.
+For this query we used the WHERE keyword to generate 2 columns. The department columns to display anything that has the word “Marketing” and the columns office to display “East”, followed by anything else. As before, the LIKE keyword used with the % wildcard allows for this search type.
 
 ## Retrieve employees in Finance or Sales
 
@@ -73,11 +73,11 @@ FROM employees
 WHERE NOT department = ‘Information Technology’;
 ```
 
-Finally, we used the SELECT keyword followed by the asterisk to provide all columns. Then we choose the employees table using the FROM keyword. In this query, we did not want any of our results to show the IT department. We used the WHERE keyword combined with the NOT operator to not display the Information Technology department.
+Finally, we used the SELECT keyword followed by the asterisk to provide all columns. Then, we choose the employees table using the FROM keyword. In this query, we did not want any of our results to show the IT department. We used the WHERE keyword combined with the NOT operator to not display the Information Technology department.
 
 ## Summary
 
-For this project, I used the sql query to access 2 databases(log_in_attempts, employees). I also used different keywords such as AND, OR, and NOT. These keywords helped filter specific data that needed to be analyzed. The LIKE operator with the % wildcard can in handy when I needed to view certain patterns.
+For this project, I used the sql query to access 2 databases(log_in_attempts, employees). I also used different keywords such as AND, OR, and NOT. These keywords helped filter specific data that needed to be analyzed. The LIKE operator with the % wildcard came in handy when I needed to view certain patterns.
 
 
 
