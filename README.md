@@ -43,7 +43,7 @@ FROM log_in_attempts
 WHERE NOT country LIKE ‘MEX%’;
 ```
 
-As before, we used the SELECT and FROM keywords to retrieve the usual data. All of the columns from the table log_in_attempts. Since we don’t want a certain country to be listed in this query, we used the NOT operator for the country column followed by the LIKE keyword in combination with the % wildcard to not query any result that has “MEX” with anything else.
+Just like before, we used the SELECT and FROM keywords to retrieve the usual data from all of the columns from the table log_in_attempts. Since we don’t want a certain country to be listed in this query, we used the NOT operator for the country column followed by the LIKE keyword in combination with the % wildcard to not query any result that has “MEX” with anything else.
 
 ## Retrieve employees in Marketing
 
